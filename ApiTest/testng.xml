@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="apiSuite">
+	<listeners>
+		<listener class-name="com.test.extentreports.ExtentReportManager"></listener>
+	</listeners>
+	<test thread-count="5" name="apiTest">
+    <classes>
+      <class name="com.test.testcases.UserTest"/>
+    </classes>
+  </test> <!-- apiTest -->
+</suite> <!-- apiSuite -->
